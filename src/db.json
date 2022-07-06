@@ -1,5 +1,22 @@
 {
-	"menu": [
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "menu": [
 		{
 			"title": "Cesar salad",
 			"price": 12,
@@ -9,8 +26,8 @@
 		},
 		{
 			"title": "Pizza Margherita",
-			"price": 10,
-			"url": "http://www.academiabarilla.com/anteprima_pizzamargherita_xhm1p-2_1200.jpg?h=faa3bae42d7180a508c490395249247ded3f362c",
+			"price": 9,
+			"url": "https://static.1000.menu/res/640/img/content-v2/ef/27/10853/picca-margarita-v-domashnix-usloviyax_1608783820_4_max.jpg",
 			"category": "pizza",
 			"id": 2
 		},
