@@ -9,8 +9,8 @@ const reduser = (state = initialState, action) => {
     switch (action.type) {
         case 'MENU_FAILED':
             return {
-                menu: [],
-                loading: 'failed',
+                menu: state.menu,
+                loading: state.failed,
                 failed: true
             };
         case 'MENU_LOADED':
